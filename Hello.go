@@ -3,11 +3,12 @@ package main
 func main() {
 	// fmt.Println("The platafomor is:")
 	//SeePlatform()
-	Loop(20)
+	// Loop(20)
 	// TesteCaracteres()
 
-	MyFirstRequestInGo()
+	// MyFirstRequestInGo()
 
 	// OptmistLock()
 	// PessimistLock()
+	Consts()
 }

@@ -10,5 +10,6 @@ func main() {
 
 	// OptmistLock()
 	// PessimistLock()
-	Consts()
+	// Consts()
+	BitsDislocation()
 }

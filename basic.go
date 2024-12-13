@@ -15,7 +15,6 @@ const (
 //var y = 10
 
 var c int
-
 var d float64
 
 func Consts() {
@@ -24,4 +23,14 @@ func Consts() {
 
 	fmt.Println("value", c, d)
 	fmt.Println("Consts", a, b, e)
+}
+
+func BitsDislocation() {
+	x := 24
+	y := x << 2
+	z := x >> 2
+
+	fmt.Printf("%b\n", x)
+	fmt.Printf("%b\n", y)
+	fmt.Printf("%b\n", z)
 }
